@@ -1,5 +1,5 @@
-var textOut=document.getElementById("div1");
+const div = document.createElement("div");
 var text=document.querySelector("input");
 text.addEventListener('change',function(){
-    textOut.innerHTML=text.value;
+    div.innerHTML=text.value;
 })
