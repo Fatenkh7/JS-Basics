@@ -1,6 +1,6 @@
-var btn = document.querySelectorAll("a");
+var bttn = document.querySelectorAll("a");
 var div = document.getElementById("texte")
-btn.forEach(function(element) {
+bttn.forEach(function(element) {
     if (element.id == "show") {
         element.onclick = function () {
             div.style.display = "block"
