@@ -10,5 +10,5 @@ btn.forEach(function(element) {
         element.onclick = function () {
             div.style.display = "none"
         }
-    } 
+    }
 });
